@@ -1,0 +1,135 @@
+@media only screen and (max-width: 990px) {
+  .my-nav {
+    font-size: 1em;
+  }
+  .Products-services .main-products .main-products-text {
+    font-size: 1em;
+  }
+  .about-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-section .image {
+    width: 80%;
+  }
+  .about-section .text {
+    width: 80%;
+  }
+  .copy-right-section {
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .mission-section {
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    text-align: start;
+    gap: 10px;
+    /* align-items: start; */
+  }
+  .mission-section .image img {
+    width: 80%;
+    height: auto;
+  }
+  .vision-section {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contact-us .contact-information {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contact-us .contact-information .form {
+    width: 100%;
+  }
+  .contact-us .contact-information form input {
+    width: 90%;
+  }
+  .contact-us .contact-information form textarea {
+    width: 90%;
+  }
+  .contact-us .contact-information .contact-info {
+    width: 100%;
+  }
+  .contact-us .contact-information .contact-info {
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 830px) {
+  .my-nav {
+    font-size: 0.8em;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .my-logo {
+    width: 145px;
+    height: 55px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .my-logo {
+    width: 135px;
+    height: 45px;
+  }
+  .about-section .text {
+    line-height: 35px;
+  }
+  .contact-page-ref {
+    flex-direction: column;
+  }
+  .contact-page-ref h3 {
+    font-size: 1em;
+  }
+  .contact-page-ref-btn {
+    padding: 5px;
+    font-size: 0.8em;
+    gap: 0px;
+  }
+  .contact-page-ref-btn a {
+    font-size: 1em;
+  }
+  .about-page-ref {
+    flex-direction: column;
+  }
+  .about-page-ref h3 {
+    font-size: 1em;
+  }
+  .about-page-ref-btn {
+    padding: 5px;
+    font-size: 0.8em;
+    gap: 0px;
+  }
+  .about-page-ref-btn a {
+    font-size: 1em;
+  }
+  .pages-top .backward-link {
+    display: none;
+  }
+  .pages-top {
+    height: 150px;
+  }
+  .contact-us .contact-us-map iframe {
+    padding: 10px;
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .slider-bottom h3 {
+    font-size: 1em;
+  }
+  .about-section {
+    margin-top: 30px;
+  }
+
+  .slider-bottom a {
+    border: 1px solid;
+  }
+  .Products-services .main-products .main-products-text {
+    font-size: 1em !important;
+  }
+  #footer .address a {
+    font-size: 0.8em !important;
+  }
+}

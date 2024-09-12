@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Icon  -->
+    <link rel="shortcut icon" href="assets/images/header/favicon1.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awards & Achievements - Aftab Engineering</title>
+    <!-- Custom Style CSS Link -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="Bootstrap/bootstrap1.css" />
+    <link rel="stylesheet" href="Bootstrap/bootstrap2.css" />
+    <!-- Media Querry -->
+    <link rel="stylesheet" href="mediaquerry/mediaone.css" />
+    <link rel="stylesheet" href="mediaquerry/mediatwo.css" />
+    <!-- AOS Animation Cdn  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Font Awesome Cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <div class="container-fluid border-bottom border-dark">
+      <div class="my-container container-xxl">
+        <a href="https://wa.me/03161132133" target="_blank"
+          ><div class="whatsapp-link">
+            <i
+              class="fa-brands fa-whatsapp fa-2xl"
+              style="color: #ffffff"
+            ></i></div
+        ></a>
+        <!-- Back to top button -->
+        <button
+          type="button"
+          class="btn btn-danger btn-floating btn-lg"
+          id="btn-back-to-top"
+        >
+          <i class="fas fa-arrow-up"></i>
+        </button>
+        <div class="header">
+          <div class="contact">
+            <div class="email">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:sales@aftabengg.com">sales@aftabengg.com</a>
+            </div>
+            <div class="number">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+92 316 1132133">+92 316 1132133</a>
+            </div>
+            <div class="time">
+              <i class="fa-solid fa-clock"></i>
+              8:30AM - 5:30PM
+            </div>
+          </div>
+          <div class="social">
+            <a
+              href="https://www.facebook.com/p/Aftab-Engineering-Services-Pvt-Ltd-100071041747897"
+              target="_blank"
+              ><i class="fa-brands fa-square-facebook"></i
+            ></a>
+
+            <a
+              href="https://pk.linkedin.com/company/aftab-engineering-services-pvt-ltd"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+        <!-- header -->
+      </div>
+    </div>
+    <!-- second container -->
+    <div class="my-container">
+      <!-- Navbar -->
+      <!-- Navbar 1 - Bootstrap Brain Component -->
+      <nav
+        id="navbar_top"
+        class="navbar navbar-expand-md bsb-navbar bsb-navbar-hover bsb-navbar-caret my-nav"
+      >
+        <div class="container-xxl">
+          <a class="navbar-brand" href="index.html">
+            <img
+              class="my-logo"
+              title="Aftab Engineering Services Pvt Ltd"
+              src="./assets/images/header/logo.png"
+              alt="Aftab Engineering Logo"
+              width="220"
+              height="80"
+            />
+          </a>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body my-nav-items">
+              <ul class="navbar-nav justify-content-end flex-grow-1">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle active"
+                    href="#!"
+                    id="accountDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Our Company</a
+                  >
+                  <ul
+                    class="dropdown-menu border-0 shadow bsb-zoomIn"
+                    aria-labelledby="accountDropdown"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="about.html">About us</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="award-achievements.html"
+                        >Awards & Achievement</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="production-facility.html"
+                    >Production Facility</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="contact.html">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- header end -->
+    <!-- pages top section -->
+    <div class="container-fluid pages-top my-container">
+      <div class="pages-top container-xxl">
+        <h1 class="pages-top-heading bold-text">Awards & Achievements</h1>
+        <h5 class="backward-link">
+          <a href="index.html">Home</a> / Awards & Achievements
+        </h5>
+      </div>
+    </div>
+    <!-- Award Section -->
+    <div class="my-container container-xxl">
+      <div class="awards">
+        <!-- Row  -->
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 p-3">
+            <div>
+              <img
+                class="modal-target"
+                alt="Award 1"
+                src="assets/images/awards/award 1.png"
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 p-3">
+            <div>
+              <img
+                class="modal-target"
+                alt="Award 2"
+                src="assets/images/awards/award 6.png"
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 p-3">
+            <div>
+              <img
+                class="modal-target"
+                alt="Award 3"
+                src="assets/images/awards/award 9.png"
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 p-3">
+            <div>
+              <img
+                class="modal-target"
+                alt="Award 4"
+                src="assets/images/awards/award 11.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 p-3">
+            <div>
+              <img
+                class="modal-target"
+                alt="Award 5"
+                src="assets/images/awards/award 13.png"
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 p-3">
+            <div>
+              <img
+                class="modal-target"
+                alt="Award 6"
+                src="assets/images/awards/award 15.png"
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 p-3">
+            <div>
+              <img
+                class="modal-target"
+                alt="Award 7"
+                src="assets/images/awards/award 16.png"
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 p-3">
+            <div>
+              <img
+                class="modal-target"
+                alt="Award 8"
+                src="assets/images/awards/award 17.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 p-3">
+            <div>
+              <img
+                class="modal-target"
+                alt="Award 9"
+                src="assets/images/awards/award 20.png"
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 p-3">
+            <div>
+              <img
+                class="modal-target"
+                alt="Award 10"
+                src="assets/images/awards/award 19.png"
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 p-3">
+            <div>
+              <img
+                class="modal-target"
+                alt="Award 11"
+                src="assets/images/awards/award 2.png"
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 p-3">
+            <div>
+              <img
+                class="modal-target"
+                alt="Award 12"
+                src="assets/images/awards/award 3.png"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Row -->
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 p-3">
+            <div>
+              <img
+                class="modal-target"
+                alt="Award 13"
+                src="assets/images/awards/award 4.png"
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 p-3">
+            <div>
+              <img
+                class="modal-target"
+                alt="Award 14"
+                src="assets/images/awards/award 5.png"
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 p-3">
+            <div>
+              <img
+                class="modal-target"
+                alt="Award 15"
+                src="assets/images/awards/award 7.png"
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 p-3">
+            <div>
+              <img
+                class="modal-target"
+                alt="Award 16"
+                src="assets/images/awards/award 8.png"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Row -->
+        <!-- Row -->
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 p-3">
+            <div>
+              <img
+                class="modal-target"
+                alt="Award 17"
+                src="assets/images/awards/award 10.png"
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 p-3">
+            <div>
+              <img
+                class="modal-target"
+                alt="Award 18"
+                src="assets/images/awards/award 12.png"
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 p-3">
+            <div>
+              <img
+                class="modal-target"
+                alt="Award 19"
+                src="assets/images/awards/award 14.png"
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 p-3">
+            <div>
+              <img
+                class="modal-target"
+                alt="Award 20"
+                src="assets/images/awards/award 18.png"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Row -->
+        <!-- The Modal -->
+        <div id="modal" class="modal">
+          <span id="modal-close" class="modal-close">&times;</span>
+          <img id="modal-content" class="modal-content" />
+          <div id="modal-caption" class="modal-caption"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Award Section End -->
+    <!-- footer section start -->
+    <footer id="footer" data-aos="fade-up" data-aos-once="true">
+      <div class="container-xxl my-container">
+        <div class="row">
+          <div class="col-md-3">
+            <a
+              class="bold-text footer-text"
+              style="pointer-events: none"
+              href="#"
+              ><img src="assets/images/header/logo.png" alt=""
+            /></a>
+            <div class="footer-about">
+              <p class="light-weight">
+                Aftab Engineering Services (Pvt.) Ltd., previously Aftab
+                Technologies (Pvt.) Ltd., has delivered expert engineering
+                solutions for 35 years, specializing in the automotive, HVAC,
+                and home appliances industries.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="useful-link">
+              <h2><i class="fa fa-xing"></i> Useful Links</h2>
+              <div class="use-links">
+                <li>
+                  <a href="about.html"
+                    ><i class="fa-solid fa-angles-right"></i> About Us</a
+                  >
+                </li>
+                <li>
+                  <a href="award-and-achievements.html"
+                    ><i class="fa-solid fa-angles-right"></i> Awards &
+                    Achievements</a
+                  >
+                </li>
+                <li>
+                  <a href="production-facility.html"
+                    ><i class="fa-solid fa-angles-right"></i> Production
+                    Facility</a
+                  >
+                </li>
+                <li>
+                  <a href="contact.html"
+                    ><i class="fa-solid fa-angles-right"></i> Contact Us</a
+                  >
+                </li>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="useful-link">
+              <h2><i class="fa fa-xing"></i> Products</h2>
+              <div class="use-links">
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angles-right"></i>Arm Suspension</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angles-right"></i>Read Deck</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angles-right"></i>Sheet Metal
+                    Components</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angles-right"></i>Tools, Dies &
+                    Jigs</a
+                  >
+                </li>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="address">
+              <h2><i class="fa fa-xing"></i> Address</h2>
+              <div class="address-links">
+                <li class="address1">
+                  <i class="fa-solid fa-location-dot"></i> A-129, S.I.T.E.
+                  Superhighway Industrial Area, KDA Scheme-33, Karachi-75330
+                  Pakistan.
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  <a href="tel:+92 316 1132133">+92 316 1132133 </a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  <a href="mailto:sales@aftabengg.com">sales@aftabengg.com </a>
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end -->
+    <!-- footer copy right section start -->
+    <div class="container-fluid copy-right-section-1">
+      <section
+        id="copy-right"
+        class="copy-right-section my-container container-xxl"
+      >
+        <div class="copy-right-sec">
+          <i class="fa-solid fa-copyright"></i>
+          Copyright © 2024 Aftab Engineering Services. All Rights Reserved.
+          Created by
+          <a href="https://github.com/muhammad-danish-me" target="_blank"
+            >Muhammad Danish</a
+          >
+        </div>
+        <div class="social">
+          <h6>
+            Follow us:
+            <a
+              href="https://www.facebook.com/p/Aftab-Engineering-Services-Pvt-Ltd-100071041747897"
+              ><i class="fa-brands fa-square-facebook"></i
+            ></a>
+            <a
+              href="https://pk.linkedin.com/company/aftab-engineering-services-pvt-ltd"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </h6>
+        </div>
+      </section>
+    </div>
+    <!-- footer copy right section end -->
+  </body>
+  <!-- Bootstrap JS Cdn -->
+  <script src="Bootstrap/bootstrap.js"></script>
+  <!-- Custom JS Script -->
+  <script src="script.js"></script>
+  <script src="JavaScript/modal.js"></script>
+  <!-- Aos Animation JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- Font Awesome JS -->
+  <script
+    src="https://kit.fontawesome.com/e761cbaf10.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
