@@ -62,10 +62,10 @@
   }
 }
 @media only screen and (max-width: 900px) {
-    .my-logo {
-      width: 145px;
-      height: 55px;
-    }
+  .my-logo {
+    width: 145px;
+    height: 55px;
+  }
 }
 
 @media only screen and (max-width: 550px) {
