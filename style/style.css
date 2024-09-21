@@ -156,17 +156,6 @@ nav .navbar-nav .dropdown ul a {
 .Products-services .main-products img {
   width: 100%;
 }
-.Products-services .main-products {
-  position: relative;
-}
-.Products-services .main-products .main-products-text {
-  width: fit-content;
-  position: absolute;
-  bottom: 20px;
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 10px;
-  text-align: center;
-}
 .Products-services .main-products .main-products-text a {
   text-decoration: none;
   color: black;
