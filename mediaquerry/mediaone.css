@@ -2,14 +2,6 @@
   .header {
     display: none;
   }
-  .Products-services {
-    gap: 20px;
-  }
-
-  .Products-services .main-products .main-products-text {
-    font-size: 1.5em !important;
-    bottom: 0px;
-  }
   .mission-section {
     flex-direction: column-reverse;
   }
