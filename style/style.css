@@ -56,11 +56,12 @@ nav .navbar-nav li a:hover {
   color: green !important;
 }
 nav .navbar-nav .dropdown ul {
-  background-color: green;
+  background-color: forestgreen;
 }
 nav .navbar-nav .dropdown ul a {
-  /* color: black; */
+  /* color: white; */
   font-weight: bolder;
+  /* background-color: white; */
 }
 .nested-dropdown:hover {
   background-color: white;
