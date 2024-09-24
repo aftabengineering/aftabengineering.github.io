@@ -40,3 +40,24 @@
 //       messageContainer.className = "message error";
 //     });
 // });
+
+const form = document.getElementById("contactForm");
+const successMessage = document.getElementById("successMessage");
+
+form.addEventListener("submit", function (event) {
+  event.preventDefault(); // Prevent the default form submission
+
+  // Simulate form submission with a timeout (replace this with your actual submission logic)
+  setTimeout(() => {
+    // Clear form inputs
+    form.reset();
+
+    // Show success message
+    successMessage.style.display = "block";
+
+    // Optionally hide the success message after a few seconds
+    setTimeout(() => {
+      successMessage.style.display = "none";
+    }, 3000);
+  }, 1000); // Simulating a delay for submission
+});
