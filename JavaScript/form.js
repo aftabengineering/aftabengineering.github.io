@@ -45,19 +45,23 @@ const form = document.getElementById("contactForm");
 const successMessage = document.getElementById("successMessage");
 
 form.addEventListener("submit", function (event) {
-  event.preventDefault(); // Prevent the default form submission
+  // Show success message immediately
+  successMessage.style.display = "none"; // Hide it initially in case of resubmission
 
-  // Simulate form submission with a timeout (replace this with your actual submission logic)
+  // Handle form submission
+  // Note: We do not prevent the default behavior here
   setTimeout(() => {
-    // Clear form inputs
-    form.reset();
-
     // Show success message
     successMessage.style.display = "block";
 
-    // Optionally hide the success message after a few seconds
+    // Clear form inputs after showing success
+    form.reset();
+
+    // Hide the success message after a few seconds
     setTimeout(() => {
       successMessage.style.display = "none";
     }, 3000);
-  }, 1000); // Simulating a delay for submission
+  }, 1000); // Simulating a delay for visual effect
+
+  // Do not prevent the default form submission
 });
