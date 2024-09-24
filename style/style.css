@@ -458,6 +458,11 @@ footer {
   border: none;
   padding: 10px;
 }
+.success-message {
+  display: none;
+  color: green;
+  margin-top: 10px;
+}
 
 /* whatsapp link */
 .whatsapp-link {
