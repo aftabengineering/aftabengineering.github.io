@@ -65,3 +65,14 @@
 
 //   // Do not prevent the default form submission
 // });
+
+const form = document.getElementById("contactForm");
+
+form.addEventListener("submit", function (event) {
+  // Handle form submission
+  // Note: We do not prevent the default behavior here
+  setTimeout(() => {
+    // Clear form inputs after showing success
+    form.reset();
+  }, 1000); // Simulating a delay for visual effect
+});
