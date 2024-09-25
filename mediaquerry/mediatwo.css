@@ -5,6 +5,7 @@
   .about-section {
     flex-direction: column;
     align-items: center;
+    gap: 20px;
   }
   .about-section .image {
     width: 80%;

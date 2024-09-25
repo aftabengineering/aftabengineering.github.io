@@ -5,6 +5,7 @@
   .mission-section {
     flex-direction: column-reverse;
   }
+
   .mobile-hidden {
     display: none;
   }
