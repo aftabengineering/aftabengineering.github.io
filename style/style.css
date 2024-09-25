@@ -14,18 +14,43 @@
   font-family: rubiklight;
   src: url(../assets/fonts/static/Rubik-Light.ttf);
 }
+@font-face {
+  font-family: poppins-bold;
+  src: url(../assets/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: poppins-black;
+  src: url(../assets/fonts/Poppins/Poppins-Black.ttf);
+}
+@font-face {
+  font-family: poppin-regular;
+  src: url(../assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: poppin-light;
+  src: url(../assets/fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: poppin-italic;
+  src: url(../assets/fonts/Poppins/Poppins-Italic.ttf);
+}
+@font-face {
+  font-family: poppin-medium;
+  src: url(../assets/fonts/Poppins/Poppins-Medium.ttf);
+}
 body {
   color: black;
-  font-family: rubikBlack, sans-serif;
+  font-family: poppin-medium, sans-serif;
   font-display: auto;
 }
 .my-container {
-  font-family: rubikblack;
+  font-family: poppin-medium, sans-serif;
 }
 .header {
   display: flex;
   justify-content: space-between;
   padding: 10px 0px;
+  font-family: poppin-regular;
 }
 .header .contact {
   display: flex;
@@ -42,6 +67,10 @@ body {
 .header .contact a {
   text-decoration: none;
   color: black;
+}
+.header .contact a:hover {
+  color: green;
+  text-decoration: underline;
 }
 
 .my-nav {
@@ -128,17 +157,17 @@ nav .navbar-nav .dropdown ul a {
 }
 .light-weight-text {
   color: green;
-  font-family: rubiklight;
+  font-family: poppin-medium;
 }
 .about-section .text h1 {
-  font-family: rubikbold;
+  font-family: poppins-bold;
 }
 .about-section .text h3 {
-  font-family: Rubik-Medium;
+  font-family: rubik;
   font-style: italic;
 }
 .about-section .text p {
-  font-family: Rubik-Medium;
+  font-family: poppin-regular;
 }
 /* About Section End */
 /* Products and services section start */
@@ -151,7 +180,7 @@ nav .navbar-nav .dropdown ul a {
   text-align: center;
 }
 .bold-text {
-  font-family: rubikbold;
+  font-family: poppins-bold;
 }
 .Products-services .main-products img {
   width: 100%;
@@ -349,7 +378,7 @@ footer a {
   color: black;
 }
 .light-weight {
-  font-family: rubiklight;
+  font-family: poppin-light;
 }
 footer {
   padding: 10px;
