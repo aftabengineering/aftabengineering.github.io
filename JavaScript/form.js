@@ -41,27 +41,27 @@
 //     });
 // });
 
-const form = document.getElementById("contactForm");
-const successMessage = document.getElementById("successMessage");
+// const form = document.getElementById("contactForm");
+// const successMessage = document.getElementById("successMessage");
 
-form.addEventListener("submit", function (event) {
-  // Show success message immediately
-  successMessage.style.display = "none"; // Hide it initially in case of resubmission
+// form.addEventListener("submit", function (event) {
+//   // Show success message immediately
+//   successMessage.style.display = "none"; // Hide it initially in case of resubmission
 
-  // Handle form submission
-  // Note: We do not prevent the default behavior here
-  setTimeout(() => {
-    // Show success message
-    successMessage.style.display = "block";
+//   // Handle form submission
+//   // Note: We do not prevent the default behavior here
+//   setTimeout(() => {
+//     // Show success message
+//     successMessage.style.display = "block";
 
-    // Clear form inputs after showing success
-    form.reset();
+//     // Clear form inputs after showing success
+//     form.reset();
 
-    // Hide the success message after a few seconds
-    setTimeout(() => {
-      successMessage.style.display = "none";
-    }, 3000);
-  }, 1000); // Simulating a delay for visual effect
+//     // Hide the success message after a few seconds
+//     setTimeout(() => {
+//       successMessage.style.display = "none";
+//     }, 3000);
+//   }, 1000); // Simulating a delay for visual effect
 
-  // Do not prevent the default form submission
-});
+//   // Do not prevent the default form submission
+// });
