@@ -175,6 +175,9 @@ nav .navbar-nav .dropdown ul a {
   background-color: #f4f7fc;
   color: black;
 }
+.products-section .main-products p {
+  font-size: 1.3rem;
+}
 .products-section .product-section-heading {
   text-align: center;
 }
