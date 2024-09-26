@@ -269,6 +269,12 @@ nav .navbar-nav .dropdown ul a {
 li {
   list-style: none;
 }
+footer .address ul{
+  padding: 0;
+}
+.useful-link ul{
+  padding: 0;
+}
 .useful-link h2 {
   margin-top: 20px;
   padding-bottom: 15px;
