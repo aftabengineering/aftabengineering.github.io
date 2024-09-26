@@ -4,7 +4,7 @@
   }
   .about-section {
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     gap: 20px;
   }
   .about-section .image {
@@ -111,6 +111,12 @@
   .contact-us .contact-us-map iframe {
     padding: 10px;
     height: 300px;
+  }
+  .about-section .image {
+    width: 100%;
+  }
+  .about-section .text {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 350px) {

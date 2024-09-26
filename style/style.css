@@ -138,7 +138,6 @@ nav .navbar-nav .dropdown ul a {
   width: 100%;
   margin-top: 70px;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
   gap: 10px;
   line-height: 2rem;
