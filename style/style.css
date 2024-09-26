@@ -161,9 +161,10 @@ nav .navbar-nav .dropdown ul a {
 .about-section .text h1 {
   font-family: poppins-bold;
 }
-.about-section .text h3 {
+.about-section .text .about-text-p {
   font-family: rubik;
   font-style: italic;
+  font-size: 1.5rem;
 }
 .about-section .text p {
   font-family: poppin-regular;
@@ -272,10 +273,10 @@ nav .navbar-nav .dropdown ul a {
 li {
   list-style: none;
 }
-footer .address ul{
+footer .address ul {
   padding: 0;
 }
-.useful-link ul{
+.useful-link ul {
   padding: 0;
 }
 .useful-link h2 {
