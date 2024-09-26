@@ -255,13 +255,7 @@ nav .navbar-nav .dropdown ul a {
 }
 
 /* footer section start */
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-}
+
 #footer {
   background: #f7f7f7;
   padding-top: 5rem;
@@ -336,8 +330,6 @@ li {
 }
 .copy-right-section {
   padding: 1.8rem;
-  /*     background: #1a1347; */
-  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
   color: black;
   text-align: center;
   display: flex;
