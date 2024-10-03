@@ -233,13 +233,12 @@ nav .navbar-nav .dropdown ul a {
   margin-top: 50px;
   justify-content: space-around;
   background-color: #1a1347;
-  height: fit-content;
   align-items: center;
   color: white;
 }
-.contact-page-ref h3 {
+/* .contact-page-ref h3 {
   font-size: 2em;
-}
+} */
 .contact-page-ref-btn a {
   text-decoration: none;
   color: white;
