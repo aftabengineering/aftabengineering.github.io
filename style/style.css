@@ -3,18 +3,6 @@
   box-sizing: border-box;
 }
 @font-face {
-  font-family: rubikblack;
-  src: url(../assets/fonts/static/Rubik-Medium.ttf);
-}
-@font-face {
-  font-family: rubikbold;
-  src: url(../assets/fonts/static/Rubik-Bold.ttf);
-}
-@font-face {
-  font-family: rubiklight;
-  src: url(../assets/fonts/static/Rubik-Light.ttf);
-}
-@font-face {
   font-family: poppins-bold;
   src: url(../assets/fonts/Poppins/Poppins-Bold.ttf);
 }
