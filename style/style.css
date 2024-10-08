@@ -62,7 +62,7 @@ body {
 }
 
 .my-nav {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: bold;
   background-color: white;
 }
@@ -77,8 +77,6 @@ nav .navbar-nav .dropdown ul {
 }
 nav .navbar-nav .dropdown ul a {
   color: white;
-  /* font-weight: bolder; */
-  /* background-color: white; */
 }
 .nested-dropdown:hover {
   background-color: white;
